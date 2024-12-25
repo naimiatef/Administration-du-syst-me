@@ -1,4 +1,6 @@
-# Administration-du-systeme :
+# Administration-du-systeme : <br>
+Voici une collection de scripts batch utiles pour la gestion et la surveillance des systèmes Linux : <br>
+
 1- [DirectorySize.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/DirectorySize.sh) : affiche la taille d'un répertoire spécifié <br>
 2- [Test-File.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/test-file.sh) : évaluer l'état d'un fichier/répertoire <br>
 3- [Server-Health.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/server-health.sh) : rapport d'informations relatives au serveur <br>
