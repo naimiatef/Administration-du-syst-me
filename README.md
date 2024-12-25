@@ -11,13 +11,13 @@ Voici une collection de scripts batch utiles pour la gestion et la surveillance 
 8- [HardwareInfo.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/hardware_machine.sh) : affiche les informations matérielles pour les systèmes Linux<br>
 9- [Get-Temperature.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/get-temperature.sh) : affiche la température du processeur<br>
 -------------------------------------------------------------------------------
-Un script Bash est un fichier texte contenant une série de commandes écrites pour être exécutées dans un interpréteur de commande Bash (Bourne Again Shell), qui est l'un des interpréteurs de commande les plus couramment utilisés sous Linux et autres systèmes UNIX.
+Un script Bash est un fichier texte contenant une série de commandes écrites pour être exécutées dans un interpréteur de commande **Bash** (Bourne Again Shell), qui est l'un des interpréteurs de commande les plus couramment utilisés sous Linux et autres systèmes UNIX.
 
-Exemple simple de script Bash
+### Exemple simple de script Bash
+
 Voici un exemple basique de script Bash :
 
-bash
-Copier le code
+```bash
 #!/bin/bash
 # Ce script affiche un message de bienvenue et la date actuelle
 
@@ -30,25 +30,30 @@ echo "Vous êtes dans le répertoire : $(pwd)"
 # Lister les fichiers dans le répertoire courant
 echo "Voici les fichiers et dossiers ici :"
 ls
-Explications
-#!/bin/bash : Indique au système que le fichier doit être exécuté avec l'interpréteur Bash.
-echo : Utilisé pour afficher du texte dans le terminal.
-$(commande) : Permet d'exécuter une commande et d'insérer son résultat dans le script.
-ls : Affiche le contenu du répertoire courant.
-Comment exécuter un script Bash
-Créez un fichier texte (par exemple, script.sh).
-Ajoutez les commandes Bash dans le fichier.
-Rendez le fichier exécutable avec la commande :
-bash
-Copier le code
-chmod +x script.sh
-Exécutez le script avec :
-bash
-Copier le code
-./script.sh
-Utilisations courantes
-Automatisation des tâches système.
-Surveillance des ressources.
-Gestion des fichiers et des répertoires.
-Déploiement et gestion des applications.
+```
+
+### Explications
+1. **`#!/bin/bash`** : Indique au système que le fichier doit être exécuté avec l'interpréteur Bash.
+2. **`echo`** : Utilisé pour afficher du texte dans le terminal.
+3. **`$(commande)`** : Permet d'exécuter une commande et d'insérer son résultat dans le script.
+4. **`ls`** : Affiche le contenu du répertoire courant.
+
+### Comment exécuter un script Bash
+1. Créez un fichier texte (par exemple, `script.sh`).
+2. Ajoutez les commandes Bash dans le fichier.
+3. Rendez le fichier exécutable avec la commande :
+   ```bash
+   chmod +x script.sh
+   ```
+4. Exécutez le script avec :
+   ```bash
+   ./script.sh
+   ```
+
+### Utilisations courantes
+- Automatisation des tâches système.
+- Surveillance des ressources.
+- Gestion des fichiers et des répertoires.
+- Déploiement et gestion des applications.
+
 Un script Bash peut être aussi simple ou complexe que nécessaire, et il est souvent utilisé par les administrateurs système et les développeurs pour optimiser leurs workflows.
