@@ -1,5 +1,5 @@
 # Administration-du-systeme :
-1- DirectorySize.sh : affiche la taille d'un répertoire spécifié <br>
+1- [DirectorySize.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/DirectorySize.sh) : affiche la taille d'un répertoire spécifié <br>
 2- Test-File.sh : évaluer l'état d'un fichier/répertoire <br>
 3- Server-Health.sh : rapport d'informations relatives au serveur<br>
 4- CPU.sh : signale si l'utilisation du processeur dépasse le seuil <br>
