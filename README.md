@@ -11,6 +11,8 @@ Voici une collection de scripts batch utiles pour la gestion et la surveillance 
 8- [HardwareInfo.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/hardware_machine.sh) : affiche les informations matérielles pour les systèmes Linux<br>
 9- [Get-Temperature.sh](https://github.com/naimiatef/Administration-du-systeme/blob/main/get-temperature.sh) : affiche la température du processeur<br>
 -------------------------------------------------------------------------------
+
+## Qu'est-ce qu'un script Bash ? <br>
 Un script Bash est un fichier texte contenant une série de commandes écrites pour être exécutées dans un interpréteur de commande **Bash** (Bourne Again Shell), qui est l'un des interpréteurs de commande les plus couramment utilisés sous Linux et autres systèmes UNIX.
 
 ### Exemple simple de script Bash
