@@ -23,7 +23,7 @@ Voici un exemple basique de script Bash :
 #!/bin/bash
 # Ce script affiche un message de bienvenue et la date actuelle
 
-echo "Bonjour, bienvenue dans le monde des scripts Bash !"
+echo "Bonjour Atef NAIMI, bienvenue dans le monde des scripts Bash !"
 echo "Nous sommes le : $(date)"
 
 # Afficher le répertoire courant
