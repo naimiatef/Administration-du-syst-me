@@ -1,16 +1,4 @@
-#!/usr/bin/env bash
-# ------------------------------------------------------------------------ #
-# Script Name:   hardware_machine.sh 
-# Description:   Show informations about machine hardware.
-# Written by:    Amaury Souza
-# Maintenance:   Amaury Souza
-# ------------------------------------------------------------------------ #
-# Usage:         
-#       $ ./hardware_machine.sh
-# ------------------------------------------------------------------------ #
-# Bash Version:  
-#              Bash 4.4.19
-# ------------------------------------------------------------------------ #
+#----------------------------------------------------------- #
 
 function menuprincipal () {
 clear
