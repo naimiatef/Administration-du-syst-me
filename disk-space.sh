@@ -1,5 +1,5 @@
 MAX=95
-EMAIL=server@127.0.0.1
+EMAIL=naimiatef@gmail.com
 PART=sda1
 
 USE=$(df -h | grep $PART | awk '{ print $5 }' | cut -d'%' -f1)
